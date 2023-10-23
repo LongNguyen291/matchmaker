@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--
+  Author:   Long Nguyen
+  Project:  MatchmakerForTheWeb
+-->
+
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matchmaker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+
   </head>
-  <body>
-    <h1>Matchmaker For the Web</h1>
+
+
+  <body style="background-image: url(hearts\ bg.jpg); background-size: 50%;">
+
+    <div class="div1">
+    <header>
+    <br><br><br>
+    <h1>Matchmaker for The Weeb</h1>
+    <h1 style="font-size: 15px;">(Cringe Alert)</h1>
+    <br><br>
+    <p style="text-align: center;color: whitesmoke;">Made with the Hope to Find <del style="color: rgb(255, 90, 90);">a weeb with good taste</del> The One</p>
+    <br><br><br>
+    </header>
+
+    <h2>Instructions</h2>
+    <p style="text-align: center;">There will be 5 questions in total to answer.</p>
+    <p> The answers should be sincere, no punishment is there anyway.</p>
+    <br>
+
+
+<br><br><br><hr><br><br>
+    <div>
+    <h3>Phở is One of the Best Dishes in the World</h3>
+    <p style="text-align: center;">Do You Agree?</p>
+    <select id="q1">
+      <option value="5">It's the Best!</option>
+      <option value="4">Agree</option>
+      <option value="3">Haven't Tried Phở Before</option>
+      <option value="2">Not in My Top 10</option>
+      <option value="1">Phở sucks</option>
+    </select><br><br><br><hr width="75%">
+    </div>
+    <br><br>
+
+    <div>
+      <h3>How Many of These Titles Are You Currently Playing?</h3>
+      <h3>(Do not Google Even If You Don't Know Them)</h3>
+      <p style="text-align: center;">Genshin Impact -- Blue Archive -- Azur Lane</p>
+      <select id="q2">
+        <option value="5">All of Them (Seek help)</option>
+        <option value="4">Two</option>
+        <option value="3">One</option>
+        <option value="2">None</option>
+        <option value="1">What are These?</option>
+      </select><br><br><br><hr width="75%">
+      </div>
+      <br><br>
+
+    <div>
+    <h3>Which One of These Animes Would You Like to Watch?</h3>
+    <p>Free to Google</p>
+    <p style="text-align: center;">If you have watched them, just choose your favourite</p>
+    <select id="q3">
+      <option value="4">Will Never Watch These</option>
+      <option value="1">Bocchi the Rock</option>
+      <option value="3">Chainsaw Man</option>
+      <option value="2">Cyberpunk: Edgerunner</option>
+      <option value="5">Demon Slayer</option>
+    </select><br><br><br><hr width="75%">
+    </div>
+    <br><br>
+
+    <div>
+    <h3>Shinkai Makoto is Overrated</h3>
+    <p style="text-align: center;">Dude's movies are entirely carried by the animation</p>
+    <select id="q4">
+      <option value="5">Strongly Agree</option>
+      <option value="4">Agree</option>
+      <option value="3">Never watched anything from this guy</option>
+      <option value="2">Disagree</option>
+      <option value="1">Strongly Disagree</option>
+    </select><br><br><br><hr width="75%">
+    </div>
+    <br><br>
+
+    <div>
+      <h3>South Korea is Amazing!</h3>
+      <p style="text-align: center;"></p>
+      <select id="q5">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <option value="3">Neither</option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+      </select><br><br><br><hr width="75%">
+      </div>
+      <br><br>
+      <br><br>
+
+    <h3 id="compatibility"> </h3>
+    <h3 id="final"> </h3>
+    <button onclick="CalculateCompatibility()">Calculate</button>
+
+    <br><br><br>
+
+       </div>
   </body>
 </html>
